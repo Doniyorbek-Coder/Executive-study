@@ -635,6 +635,7 @@ body {
 
 .countries__container {
   padding: 0 30px;
+  padding-top: 82px;
 }
 .countries__title {
   font-weight: bold;
@@ -797,6 +798,42 @@ body {
   transform: scale(1.4);
   background-color: var(--button);
 }
+.apply {
+  background-color: #fafafa;
+}
+.apply__container {
+  padding: 82px 40px 74px 37px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.apply__title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 43px;
+  color: #252525;
+}
+.apply__button {
+  padding: 12px 34px;
+  display: flex;
+  align-items: center;
+  background: var(--button);
+  border-radius: 11px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+}
+.apply__button::after {
+  margin-left: 43px;
+  content: '';
+  background-image: url(../images/arrow_right.svg);
+  width: 29px;
+  height: 26px;
+}
+
 /* FOOTER */
 
 .site-footer {
