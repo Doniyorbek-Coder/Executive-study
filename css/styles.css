@@ -30,6 +30,7 @@
   --footer-bg: #191919;
   --white-black: #7d7d7d;
   --dark-black: #373737;
+  --white: #eeeeee;
 }
 
 html {
@@ -99,4 +100,90 @@ body {
   color: #fff;
   box-shadow: none;
   background-color: var(--button);
+}
+
+/* FOOTER */
+
+.site-footer {
+  background-color: var(--button);
+}
+
+.site-footer__panel {
+  margin: 0;
+  padding: 0;
+  padding-top: 64px;
+  padding-bottom: 45px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  color: var(--white);
+}
+.site-footer__part {
+  padding-right: 30px;
+}
+.site-footer__part--social {
+  display: flex;
+  align-items: flex-end;
+}
+.site-footer__logo--img {
+  display: block;
+  margin-bottom: 26px;
+}
+.site-footer__part--text,
+.site-footer__part--adress {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+}
+.site-footer__part--adress {
+  margin-bottom: 58px;
+}
+.site-footer__part--list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.site-footer__part--link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 49px;
+  color: #eeeeee;
+}
+
+.site-footer__social--list {
+  margin: 0;
+  margin-bottom: 53px;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+.site-footer__social--item:not(:last-child) {
+  margin-right: 28px;
+}
+.facebook---link {
+  width: 10px;
+  height: 16px;
+  display: block;
+  background-image: url(../images/facebook-white.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.twitter---link {
+  width: 16px;
+  height: 14px;
+  display: block;
+  background-image: url(../images/twitter-white.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.instagram---link {
+  width: 16px;
+  height: 17px;
+  display: block;
+  background-image: url(../images/instagram-white.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
